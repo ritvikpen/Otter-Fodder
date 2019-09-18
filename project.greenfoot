@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue Sep 17 09:29:04 PDT 2019
+#Wed Sep 18 10:24:59 PDT 2019
 editor.fx.0.height=0
 target2.width=80
 target8.name=Banana
@@ -80,7 +80,6 @@ target9.typeParameters=
 dependency7.type=UsesDependency
 dependency27.to=Spider3
 dependency21.from=Spider4
-class.Egg.image=rock.png
 target11.type=ClassTarget
 version=3.0.0
 dependency31.from=Bomb
@@ -159,7 +158,6 @@ target12.type=ClassTarget
 target5.typeParameters=
 dependency17.to=Lizard
 dependency16.from=Bomb
-class.Egg.superclass=greenfoot.Actor
 dependency26.from=Bomb
 dependency2.from=Explosion
 class.Banana.superclass=greenfoot.Actor
@@ -171,7 +169,7 @@ dependency24.to=Lizard
 target3.name=Ground
 target6.showInterface=false
 target3.typeParameters=
-class.Ground.image=corkboard.jpg
+class.Ground.image=ocean.jpg
 dependency3.to=Lizard
 target9.showInterface=false
 target7.name=Bomb
@@ -201,7 +199,7 @@ dependency29.type=UsesDependency
 dependency5.type=UsesDependency
 dependency20.to=Lizard
 target8.type=ClassTarget
-class.Banana.image=bananas.png
+class.Banana.image=urchin.png
 dependency18.to=Bomb
 dependency13.from=Villain
 dependency9.type=UsesDependency

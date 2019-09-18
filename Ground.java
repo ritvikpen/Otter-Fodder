@@ -70,8 +70,8 @@ public class Ground extends World
         addObject(lizard,224,189);
         Spider1 spider1 = new Spider1();
         addObject(spider1,100,358);
-        Egg egg = new Egg();
-        addObject(egg,30,30);
+        //Egg egg = new Egg();
+        //addObject(egg,30,30);
         Spider1 spider12 = new Spider1();
         addObject(spider12,427,314);
         Spider1 spider13 = new Spider1();
