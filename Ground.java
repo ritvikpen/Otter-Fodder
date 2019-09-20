@@ -34,7 +34,7 @@ public class Ground extends World
             addObject(new Banana(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
         }
         
-        if (Greenfoot.getRandomNumber(1600) < 10)
+        if (Greenfoot.getRandomNumber(1600) < 05)
         {
             addObject(new Spider1(), 30, 30);
         }

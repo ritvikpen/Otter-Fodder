@@ -6,13 +6,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Spider1 extends Organism
+public class Spider1 extends Organism 
 {
 
     /**
      * Act - do whatever the Spider1 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    private int num;
+    private double ratio = ;
     public void act()
     {
         if ( isAtEdge() )
@@ -32,6 +34,10 @@ public class Spider1 extends Organism
             Greenfoot.playSound("Eating.wav");
             removeTouching(Lizard.class);
         }
-
+       num = getObjects(Spider1.class);
+    }
+    public double SpawnRate(int num)
+    {
+        num * 
     }
 }

@@ -16,4 +16,9 @@ public class Banana extends Organism
     {
         // Add your action code here.
     }    
+    static double SpawnRate () 
+    {
+        
+    }
+    
 }

@@ -12,5 +12,6 @@ abstract class Organism extends Actor
      * Act - do whatever the Organism wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    abstract double SpawnRate(); 
+    public abstract double SpawnRate (int numObject);
+     
 }

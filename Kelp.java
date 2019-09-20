@@ -16,4 +16,8 @@ public class Kelp extends Organism
     {
         // Add your action code here.
     }    
+    static double SpawnRate () 
+    {
+        
+    }
 }
