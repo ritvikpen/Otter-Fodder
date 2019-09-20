@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class MyWorld here.
  * 
- * @author (your name) 
+ * @author (your name)
  * @version (a version number or a date)
  */
 public class Ground extends World
@@ -29,14 +29,19 @@ public class Ground extends World
     public void act()
     {
         Banana banana = new Banana();
-        if (Greenfoot.getRandomNumber(400) <3)
+        if (Greenfoot.getRandomNumber(1600) < 10)
         {
-            addObject(new Banana(), Greenfoot.getRandomNumber(560), Greenfoot.getRandomNumber(360));
+            addObject(new Banana(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
         }
         
-        if (Greenfoot.getRandomNumber(700) < 5)
+        if (Greenfoot.getRandomNumber(1600) < 10)
         {
             addObject(new Spider1(), 30, 30);
+        }
+        Kelp kelp = new Kelp();
+        if (Greenfoot.getRandomNumber(1600)<20)
+        {
+            addObject(new Kelp(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
         }
     }
     public void addScore(int points)
