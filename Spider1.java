@@ -14,7 +14,7 @@ public class Spider1 extends Organism
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     private int num;
-    private double ratio = ;
+    private double ratio = 1;
     public void act()
     {
         if ( isAtEdge() )
@@ -34,10 +34,14 @@ public class Spider1 extends Organism
             Greenfoot.playSound("Eating.wav");
             removeTouching(Lizard.class);
         }
-       num = getObjects(Spider1.class);
+       num = getWorld().getObjects(Spider1.class).size();
     }
     public double SpawnRate(int num)
     {
-        num * 
+        return num * ratio; 
+    }
+    public int getNum() 
+    {
+        return num;
     }
 }

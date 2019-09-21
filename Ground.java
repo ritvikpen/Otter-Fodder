@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.lang.Math;
 /**
  * Write a description of class MyWorld here.
  * 
@@ -29,17 +29,17 @@ public class Ground extends World
     public void act()
     {
         Banana banana = new Banana();
-        if (Greenfoot.getRandomNumber(1600) < 10)
+        if (Math.random() < 0.01)
         {
             addObject(new Banana(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
         }
         
-        if (Greenfoot.getRandomNumber(1600) < 05)
+        if (Math.random() < 0)
         {
             addObject(new Spider1(), 30, 30);
         }
         Kelp kelp = new Kelp();
-        if (Greenfoot.getRandomNumber(1600)<20)
+        if (Math.random() < 0.01)
         {
             addObject(new Kelp(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
         }
@@ -73,8 +73,12 @@ public class Ground extends World
     {
         Lizard lizard = new Lizard();
         addObject(lizard,224,189);
-        Spider1 spider1 = new Spider1();
-        addObject(spider1,100,358);
+        addObject(new Banana(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
+        addObject(new Banana(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
+        addObject(new Banana(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
+        addObject(new Kelp(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
+        addObject(new Kelp(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
+        addObject(new Kelp(), Greenfoot.getRandomNumber(1200), Greenfoot.getRandomNumber(600));
         //Egg egg = new Egg();
         //addObject(egg,30,30);
         Spider1 spider12 = new Spider1();
