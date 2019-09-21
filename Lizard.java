@@ -17,7 +17,7 @@ public class Lizard extends Actor
      */
     public void act() 
     {
-        move(1);
+        move(5);
         if ( Greenfoot. isKeyDown("right") ){
             turn(5);
         }

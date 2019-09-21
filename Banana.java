@@ -17,7 +17,7 @@ public class Banana extends Organism
     private double ratio = 1;
     public void act() 
     {
-        // Add your action code here.
+       /* // Add your action code here.
         for (Banana b : getWorld().getObjects(Banana.class)) 
         { 
             if(b.getNearestKelp().getX() > b.getX()){
@@ -32,7 +32,7 @@ public class Banana extends Organism
             else{
                 setLocation(b.getX(), b.getY()-10);
             }
-        }
+        }*/
     }    
     public double SpawnRate (int num) 
     {
